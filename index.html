@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Mohd Asim Portfolio</title>
+  
+  </head>
+  <body>
+    <nav>
+      <div class="nav_content">
+        <div class="logo">
+          <a href="#">Mohd Asim</a>
+        </div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+     <!-- profile section -->
+        <section id="profile">
+            <div class="section_text">
+              <p class="section_text_p1">Hello, I'm</p>
+              <h1 class="mytitle animate__animated animate__zoomIn">Mohd Asim</h1>
+              <p class="section_text_p2">Frontend Developer</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-download"
+                  onclick="window.open(`./assets/Mohd's Resume.pdf`)"
+                >
+                  Download CV
+                </button>
+                <button class="btn btn-contact" onclick="location.href='#contact'">
+                  Contact Info
+                </button>
+              </div>
+              <br>
+
+              <div id="socials
+              _container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://www.linkedin.com/in/mohdasim237/'"
+                />
+                <img
+                  src="./assets/github.png"
+                  alt="My Github profile"
+                  class="icon" 
+                  onclick="location.href='https://github.com/asimkhan24'"
+                />
+              </div>
+            </div>
+            <div class="section__pic-container">
+                <img src="./assets/Profile-pic1.png" alt="Mohd Asim profile picture" />
+              </div>
+          </section>
+
+          <!-- About section -->
+          <section id="about">
+            <p class="about_text_p1 section_text_p1">Get to know More</p>
+            <h1 class="about_title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+<img src="./assets/pro2_edited.jpg" alt="Profile Picture" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience icon" class="icon arrow"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>Diploma in CSE <br>B.Tech in CSE </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+            Welcome to my web developer portfolio! I'm Mohd Asim, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Skills / Experience section  -->
+          <section id="skills">
+           <p class="skills_text_p1 section_text_p1">Explore my</p>
+           <h1 class="skills_title">Skills or Experience</h1>
+           <div class="skills-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="skills-subtitle">Frontend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>HTML</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>JavaScript</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>React JS</h3>
+                      <p>Basic</p>
+                    </div>
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="skills-subtitle">Backend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>MySQL</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Node JS</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills  icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Express JS</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Skills  icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Git</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+           </div>
+          </section>
+
+      
+
+
+          <!-- Projexts section  -->
+        <section id="projects">
+          <p class="projects_text_p1 section_text_p1">Browse my Recent</p>
+          <h1 class="mytitle">Projects</h1>
+          <div class="project-main-container">
+            <div class="about-containers">
+              <div class="project-details-container">
+                <div class="project-container">
+                  <img
+                    src="./assets//project-101.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="project-title">Myntra clone</h2>
+      
+                <div class="btn-container">
+                  <button
+                    class="btn btn-contact project-btn"
+                    onclick="location.href='https://asimkhan24.github.io/myntraClone/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-contact project-btn"
+                    onclick="location.href='https://asimkhan24.github.io/myntraClone/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+
+              </div>
+              <div class="project-details-container">
+                <div class="project-container">
+                  <img
+                    src="./assets/tribute.jpeg"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="project-title">Tribute Page</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-contact project-btn"
+                    onclick="location.href='https://asimkhan24.github.io/tributePage/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-contact project-btn"
+                    onclick="location.href='https://asimkhan24.github.io/tributePage/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="project-details-container">
+                <div class="project-container">
+                  <img
+                    src="./assets/project-34.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="project-title">Calculator</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-contact project-btn"
+                    onclick="location.href='https://asimkhan24.github.io/CalculatorAsim/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-contact project-btn"
+                    onclick="location.href='https://asimkhan24.github.io/CalculatorAsim/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+          <p class="projects_text_p1 section_text_p1">Get in Touch</p>
+      <h1 class="mytitle">Contact Me</h1>
+      <div class="contact-main-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="
+            https://mail.google.com/mail/?view=cm&fs=1&to=mohdasim1193@gmail.com&su=SUBJECT&body=BODY" target="_blank">mohdasim1193@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mohdasim237/" target="_blank">LinkedIn</a></p>
+        </div>
+        </div>
+      </div>
+        </section>
+
+        </main>
+        <footer>
+          <p>Copyright &#169; 2023 Mohd Asim. All Rights Reserved.</p>
+        </footer>
+  </body>
+</html>

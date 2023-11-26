@@ -1,0 +1,142 @@
+@media screen and (max-width: 1070px) {
+  #profile .mytitle {
+    font-size: 2rem;
+    text-align: left;
+  }
+  section{
+    width: 800px;
+  }
+
+  #profile {
+    margin-left: 20vh;
+    width: 1000px;
+  }
+.nav_content .logo a{
+  font-size: 1rem;
+}
+  #about {
+    margin-bottom: 100px;
+  }
+
+  .section-container {
+    margin-left: 100px;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+ 
+  }
+
+  #skills{
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #profile {
+   
+    margin-left: 30%;
+  }
+
+  ul li a{
+    font-size: 0.8em;
+    padding: 0.2rem 0.5rem;
+  }
+
+  #about {
+    margin-bottom: 50px;
+  }
+
+  #about .section-container {
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 40vh;
+    
+  }
+
+  #about .section-container .section__pic-container{
+    margin-left: 20vh;
+  }
+
+  #about .about_text_p1,
+  .skills_text_p1,
+  .projects_text_p1 {
+    margin-left: 30vh;
+    width: 100vw;
+  }
+  #about .about_title,
+  .skills_title,
+  #projects .mytitle,
+  #contact .mytitle {
+    margin-left: 30vh;
+    width: 100vw;
+  }
+  .details-container {
+    width: 80vw;
+  }
+
+  
+  #about {
+    margin-bottom: 500px;
+  }
+
+  #about .about-containers {
+    flex-wrap: wrap;
+  }
+
+  #projects .about-containers {
+    flex-wrap: wrap;
+    margin-left: 50%;
+  }
+  .project-details-container {
+    width: fit-content;
+  }
+#skills{
+    width: 100%;
+  
+}
+
+#skills .about-containers{
+   
+    margin-left: 30vh;
+    width: 100%;
+}
+ 
+#projects .about-containers{
+    margin-left: 40vh;
+}
+footer p{
+    margin-left: 30vh;
+    width: 100%;
+}
+.contact-main-container{
+    margin-left: 40vh;
+}
+
+.section-container {
+  flex-wrap: wrap;
+  margin-left: 30vh;
+}
+ 
+}
+
+@media screen and (max-width: 500px) {
+
+
+  #about {
+    margin-bottom: 500px;
+  }
+
+  #skills .about-containers{
+    flex-wrap: wrap;
+}
+#skills{
+    margin-bottom: 500px;
+}
+ 
+.contact-main-container{
+    margin-left: 20vh;
+}
+ 
+
+}
